@@ -46,15 +46,17 @@
         <img src="./images/street.jpg" alt="street" />
       </div>
       <br />
-      <div class="page-content-answer">
+      <div class="page-content">
         <div id="user-address">
           <?php
-          $number = $_GET["street-number"];
-          $name = $_GET["street-name"];
+          $number = $_GET["number"];
+          $name = $_GET["name"];
 
           echo "<p>Your info is: " . $number . ", " . $name . ".</p>";
           ?>
         </div>
+        <a href="./index.php">Return ...</a>
+      </div>
     </main>
   </div>
 </body>
