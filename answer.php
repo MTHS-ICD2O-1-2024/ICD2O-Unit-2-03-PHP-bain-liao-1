@@ -52,7 +52,7 @@
           $number = $_GET["number"];
           $name = $_GET["name"];
 
-          echo "<p>Your info is: " . $number . ", " . $name . ".</p>";
+          echo "<p>Your info is: " . $name . ", " . $number . ".</p>";
           ?>
         </div>
         <a href="./index.php">Return ...</a>
