@@ -50,15 +50,15 @@
       <form action="answer.php" method="GET">
         <p>Street Number</p>
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="name">
-          <label class="mdl-textfield__label" for="street-name">Street name ...</label>
+          <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="number">
+          <label class="mdl-textfield__label" for="street-number">Street number ...</label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
         <br />
         <p>Street Name</p>
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" name="number">
-          <label class="mdl-textfield__label" for="street-number">Street number ...</label>
+          <input class="mdl-textfield__input" type="text" name="name">
+          <label class="mdl-textfield__label" for="street-name">Street name ...</label>
         </div>
         <br />
         <!-- Accent-colored raised button with ripple -->
